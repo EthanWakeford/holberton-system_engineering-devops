@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #lists directory contents after the first dash
-for i in $(ls)
+var=$(ls)
+for i in $var
 do 
-	echo $i | cut -d"-" -f2-
+	echo "$i" | cut -d"-" -f2-
 done
