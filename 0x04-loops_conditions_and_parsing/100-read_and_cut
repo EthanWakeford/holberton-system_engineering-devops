@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#displays /etc/passwd in shorter form
+var=$(cat /etc/passwd)
+echo $var
