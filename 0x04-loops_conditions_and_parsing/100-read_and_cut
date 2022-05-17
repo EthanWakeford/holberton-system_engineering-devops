@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 #displays /etc/passwd in shorter form
-var=$(cat /etc/passwd)
-echo $var
+while read; do
+cut -d':' -f1,3,7
+done </etc/passwd
