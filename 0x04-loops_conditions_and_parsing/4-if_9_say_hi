@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#prints strong 10 times, 9th iteration says hi on new line
+while (( i <= 9))
+do 
+	echo "Best School"
+	i=$(( i+1))
+	if [ "$i" -eq 9 ]
+	then
+		echo "Hi"
+	fi
+done
